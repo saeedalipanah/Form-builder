@@ -4,7 +4,7 @@
       <div
         class="form-name bg-muted h-32 rounded-md flex justify-center items-center px-1"
       >
-        <h3 class="font-bold text-xl text-center">{{ title }}</h3>
+        <h3 class="font-bold text-xl text-center">{{ title || 'بدون نام' }}</h3>
       </div>
     </template>
     <template #card-content>
